@@ -97,7 +97,7 @@ Replace `main.py` with your actual Python filename if it is different.
 
 ## 👨‍💻 Author
 
-**Sahil Sohaliya**
+**shekhda kashyap**
 
 BCA (AI/DA) Student | Python Developer | Aspiring Data Analyst
 
