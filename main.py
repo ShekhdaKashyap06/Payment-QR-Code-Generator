@@ -3,18 +3,15 @@ import qrcode
 from PIL import Image
 import io
 
-# ----------------------------
 # Page Configuration
-# ----------------------------
+
 st.set_page_config(
     page_title="UPI QR Generator",
     page_icon="💳",
     layout="centered"
 )
 
-# ----------------------------
 # Custom CSS
-# ----------------------------
 st.markdown("""
 <style>
 
@@ -61,20 +58,16 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# ----------------------------
-# Title
-# ----------------------------
 
+# Title
 st.markdown("<div class='title'>💳 UPI QR Generator</div>", unsafe_allow_html=True)
 
 st.markdown(
 "<div class='subtitle'>Generate QR Codes for Google Pay, PhonePe & Paytm</div>",
 unsafe_allow_html=True)
 
-# ----------------------------
-# Form
-# ----------------------------
 
+# Form
 with st.container():
 
 
@@ -104,10 +97,8 @@ with st.container():
 
     st.markdown("</div>", unsafe_allow_html=True)
 
-# ----------------------------
-# QR Generation
-# ----------------------------
 
+# QR Generation
 if generate:
 
     if upi_id == "" or name == "":
