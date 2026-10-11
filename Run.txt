@@ -1,0 +1,8 @@
+How To Run Code ? :
+
+python -m streamlit run main.py
+
+
+Alternatively, you can use :
+
+streamlit run main.py
